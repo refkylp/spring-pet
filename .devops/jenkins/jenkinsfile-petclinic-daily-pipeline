@@ -181,7 +181,7 @@ pipeline {
             steps {
                 echo "DEV ORTAMI ICIN FONKSIYONEL TESTLER CALISIYOR"
                 // 5 dk boyunca uyu
-                sh "sleep 300" 
+                sh "sleep 1500" 
             }
         }
  }
