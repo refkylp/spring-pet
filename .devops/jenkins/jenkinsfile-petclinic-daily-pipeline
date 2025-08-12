@@ -133,7 +133,7 @@ pipeline {
                         if helm repo list | grep -q stable-petclinic; then
                             helm repo remove stable-petclinic
                         fi
-                        helm repo add stable-petclinic s3://petclinic-charts-fevzitopcu/stable/myapp/
+                        helm repo add stable-petclinic s3://petclinic-charts-rk/stable/myapp/
                     '''
 
                     // Chart paketle
